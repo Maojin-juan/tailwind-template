@@ -1,0 +1,55 @@
+{
+  "window.zoomLevel": 2,
+
+  "files.exclude": {
+    "**/.git": false,
+    "**/.DS_Store": true,
+    "**/.vscode": false,
+    "**/node_modules": false,
+    "**/bower_components": true,
+    "**/tmp": true,
+    "**/build": true,
+    "**/dist": false
+  },
+
+  /*工作區編輯器設定*/
+  "editor.formatOnSave": true /*儲存時自動格式化*/,
+  "editor.wordWrap": "on" /*文字換行*/,
+  "editor.defaultFormatter": "esbenp.prettier-vscode" /*預設格式化工具*/,
+  "editor.tabSize": 2 /*tab 空白字元數*/,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" /*在html使用prettier format*/
+  },
+  "[js]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" /*在js使用prettier format*/
+  },
+  "[ejs]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" /*在ejs使用prettier format*/
+  },
+
+  /*工作區主題*/
+  "workbench.iconTheme": "material-icon-theme",
+
+  /*git*/
+  // "git.useEditorAsCommitInput": false,
+  // "git.autofetch": true,
+  // "git.enableSmartCommit": true,
+  // "git.confirmSync": false,
+
+  /*prettier*/
+  // "prettier.singleQuote": true,/*使用單引號*/
+  // "prettier.semi": false,/*結束是否加分號*/
+  // "prettier.printWidth": 120,/*行寬*/
+  // "prettier.trailingComma": "es5",/*尾隨逗號*/
+  // "prettier.tabWidth": 2/*縮排空幾格*/
+
+  /*live sass*/
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  /*compile hero*/
+  "compile-hero.jade-output-directory": "./public",
+  "compile-hero.javascript-output-directory": "./public",
+  "compile-hero.pug-output-directory": "./",
+  "compile-hero.scss-output-directory": "../",
+  "compile-hero.scss-output-toggle": false
+}
