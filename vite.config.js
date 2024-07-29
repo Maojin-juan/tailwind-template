@@ -33,11 +33,6 @@ export default defineConfig({
     ViteEjsPlugin(),
     moveOutputPlugin(),
   ],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "src"),
-    },
-  },
   server: {
     port: 5487,
     // 啟動 server 時預設開啟的頁面
