@@ -28,7 +28,7 @@
   },
 
   /*工作區主題*/
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "material-icon-theme"
 
   /*git*/
   // "git.useEditorAsCommitInput": false,
@@ -42,14 +42,4 @@
   // "prettier.printWidth": 120,/*行寬*/
   // "prettier.trailingComma": "es5",/*尾隨逗號*/
   // "prettier.tabWidth": 2/*縮排空幾格*/
-
-  /*live sass*/
-  "liveServer.settings.donotShowInfoMsg": true,
-
-  /*compile hero*/
-  "compile-hero.jade-output-directory": "./public",
-  "compile-hero.javascript-output-directory": "./public",
-  "compile-hero.pug-output-directory": "./",
-  "compile-hero.scss-output-directory": "../",
-  "compile-hero.scss-output-toggle": false
 }
